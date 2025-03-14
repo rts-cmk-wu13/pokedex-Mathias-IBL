@@ -38,7 +38,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=50`)
                 <article>
                     <p>${getIdFromPokemon(pokemon.url)}</p>
                     <h2>${pokemon.name}</h2>
-                    <img src="${artworkUrl}/${getIdFromPokemon(pokemon.url)}.png" alt="${pokemon.name}">
+                    <a href="detail.html?name=${pokemon.name}"><img src="${artworkUrl}/${getIdFromPokemon(pokemon.url)}.png" alt="${pokemon.name}"></a>
                 </article>
             `).join("")
 
