@@ -1,0 +1,47 @@
+.pokelist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .pokelist article:nth-last-child(5){
+    background-color: orange;
+} */
+
+/* meter { -webkit-appearance: none; }
+meter::-webkit-meter-bar {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0.5rem;
+}
+meter::-webkit-meter-optimum-value {
+    background: #87C7DE;
+    background: -moz-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a1d4e6), color-stop(100%, #6bb4d1));
+    background: -webkit-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%);
+    background: -o-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%);
+    background: -ms-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%);
+    background: linear-gradient(to bottom, #a1d4e6 0%, #6bb4d1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1d4e6', endColorstr='#6bb4d1',GradientType=0);
+} */
+
+/* Style for the meter's fill color */
+/* .stat-meter {
+    position: relative;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 8px;
+    background: #e0e0e0;
+  }
+  
+  .stat-meter::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--meter-fill, 0%);
+    background-color: var(--meter-fill-color);
+    border-radius: 8px;
+  } */
+  
+ 
