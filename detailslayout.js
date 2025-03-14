@@ -6,7 +6,7 @@ divElm.innerHTML = `
         <span class="brand">Pokédex</span>
     </header>
     <main></main>
-    <footer>Created 2025</footer>
+    <footer></footer>
 `
 
 document.querySelector("body").append(divElm)
